@@ -13,7 +13,7 @@ const PromptCard = ({ prompt, onCopySuccess, variant = "default" }: PromptCardPr
     return (
         <div
             className={`
-                bg-white rounded-3xl p-6 shadow-sm hover:shadow-md border border-transparent hover:border-gray-200 transition-all duration-300 relative group flex flex-col h-full
+                transition-all duration-300 relative group flex flex-col h-full
                 ${isLarge ? "min-h-[400px] justify-center items-center text-center px-4 py-12" : "p-6"}
             `}
         >
