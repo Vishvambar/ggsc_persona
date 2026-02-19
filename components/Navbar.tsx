@@ -24,7 +24,7 @@ const Navbar = () => {
                             alt="MIT ADT University Logo"
                             width={80}
                             height={80}
-                            className="h-16 object-contain"
+                            className="h-12 md:h-16 w-auto object-contain"
                         />
                     </div>
                 </div>

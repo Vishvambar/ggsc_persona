@@ -103,7 +103,7 @@ export default function PromptLibrary() {
             </div>
 
             {/* Navigation Controls */}
-            <div className="flex items-center justify-center gap-4 mt-8 p-2">
+            <div className="flex flex-wrap items-center justify-center gap-4 mt-8 p-2">
                 <button
                     onClick={handlePrevious}
                     disabled={currentIndex === 0}

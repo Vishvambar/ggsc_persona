@@ -23,7 +23,7 @@ const PromptCard = ({ prompt, onCopySuccess, variant = "default" }: PromptCardPr
                 </span>
                 <h3
                     key={`title-${prompt.id}`}
-                    className={`font-bold text-gray-900 leading-tight font-[family-name:var(--font-inter)] animate-fade-in ${isLarge ? "text-3xl mt-2" : "text-[18px]"}`}
+                    className={`font-bold text-gray-900 leading-tight font-[family-name:var(--font-inter)] animate-fade-in ${isLarge ? "text-2xl md:text-3xl mt-2" : "text-[18px]"}`}
                 >
                     {prompt.title}
                 </h3>
@@ -31,7 +31,7 @@ const PromptCard = ({ prompt, onCopySuccess, variant = "default" }: PromptCardPr
 
             <p
                 key={`content-${prompt.id}`}
-                className={`text-[#444746] font-[family-name:var(--font-roboto)] animate-fade-in ${isLarge ? "text-2xl leading-relaxed max-w-4xl" : "text-[15px] leading-relaxed line-clamp-4 flex-grow"}`}
+                className={`text-[#444746] font-[family-name:var(--font-roboto)] animate-fade-in ${isLarge ? "text-xl md:text-2xl leading-relaxed max-w-4xl" : "text-[15px] leading-relaxed line-clamp-4 flex-grow"}`}
             >
                 {prompt.content}
             </p>
